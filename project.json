@@ -1,0 +1,26 @@
+{
+  "overview": "CyraSense AI is a premium, intelligent women's health decision system that feels like a real digital health assistant. It tracks menstrual cycles, validates health inputs, analyzes patterns from personal history, and guides users with calm, responsible health insights.",
+  "features": [
+    "Smart onboarding with input validation (age, height, weight cross-checks)",
+    "Personalized dashboard with cycle phase insights and daily wellness messages",
+    "Smart calendar with period days, ovulation window, and fertile window visualization",
+    "Daily logging for pain level, mood, and symptoms",
+    "Is This Normal? analyzer with 3-tier decision guidance",
+    "Personal baseline engine comparing cycles over time",
+    "Phase-based self-care content (menstrual, ovulation, luteal phases)",
+    "Women's health chatbot that stays on-topic",
+    "Monthly cycle summary with pattern insights",
+    "Settings with profile, city, and preferences management"
+  ],
+  "category": "health-wellness",
+  "tags": [
+    "women-s-health",
+    "cycle-tracking",
+    "menstrual-health",
+    "health-analytics",
+    "wellness",
+    "personal-health",
+    "ai-assistant"
+  ],
+  "last_updated": "2026-04-08T13:31:05.491Z"
+}

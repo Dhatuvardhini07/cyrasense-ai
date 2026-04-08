@@ -1,0 +1,126 @@
+type UserProgress = 
+ record {
+   lastQuizDate: text;
+   quizzesCompletedToday: nat;
+   totalCompleted: nat;
+   totalPoints: nat;
+ };
+type UserProfile = 
+ record {
+   age: nat;
+   city: text;
+   createdAt: int;
+   dob: opt text;
+   heightCm: float64;
+   id: principal;
+   lifeStage: text;
+   name: text;
+   weightKg: float64;
+ };
+type SelfCareItem = 
+ record {
+   category: text;
+   description: text;
+   phase: text;
+   tips: vec text;
+   title: text;
+ };
+type Result = 
+ variant {
+   err: text;
+   ok;
+ };
+type QuizResult = 
+ record {
+   correct: bool;
+   explanation: text;
+   pointsEarned: nat;
+ };
+type QuizQuestion = 
+ record {
+   correctIndex: nat;
+   explanation: text;
+   id: text;
+   options: vec text;
+   question: text;
+ };
+type ProfileUpdate = 
+ record {
+   age: opt nat;
+   city: opt text;
+   dob: opt text;
+   heightCm: opt float64;
+   lifeStage: opt text;
+   name: opt text;
+   weightKg: opt float64;
+ };
+type MonthlyReport = 
+ record {
+   avgPainLevel: float64;
+   commonSymptoms: vec text;
+   cycleLength: nat;
+   nextSteps: text;
+   patternInsight: text;
+ };
+type DailyLog = 
+ record {
+   createdAt: int;
+   date: text;
+   id: text;
+   mood: opt text;
+   notes: opt text;
+   painLevel: opt nat;
+   symptoms: vec text;
+ };
+type CycleRecord = 
+ record {
+   createdAt: int;
+   cycleLengthDays: nat;
+   id: text;
+   notes: opt text;
+   periodDays: nat;
+   startDate: text;
+ };
+type CyclePrediction = 
+ record {
+   currentPhase: text;
+   dayOfCycle: nat;
+   fertileWindowEnd: text;
+   fertileWindowStart: text;
+   nextPeriodStart: text;
+   ovulationDate: text;
+ };
+type ChatMessage = 
+ record {
+   content: text;
+   role: text;
+   timestamp: int;
+ };
+type AnalysisResult = 
+ record {
+   delayDays: opt int;
+   guidance: text;
+   guidanceLevel: text;
+   isNormal: bool;
+   reasoning: text;
+ };
+service : {
+  addCycleRecord: ("record": CycleRecord) -> (Result);
+  analyzeCurrentCycle: () -> (AnalysisResult);
+  getAverageCycleLength: () -> (float64) query;
+  getChatHistory: () -> (vec ChatMessage) query;
+  getCurrentCyclePrediction: () -> (opt CyclePrediction) query;
+  getCycleHistory: () -> (vec CycleRecord) query;
+  getDailyLogs: (startDate: text, endDate: text) -> (vec DailyLog) query;
+  getDailyQuizzes: () -> (vec QuizQuestion) query;
+  getLogForDate: (date: text) -> (opt DailyLog) query;
+  getMonthlyReport: () -> (MonthlyReport);
+  getProfile: () -> (opt UserProfile) query;
+  getSelfCareForPhase: (phase: text) -> (vec SelfCareItem) query;
+  getUserProgress: () -> (UserProgress) query;
+  saveDailyLog: (log: DailyLog) -> (Result);
+  saveProfile: (profile: UserProfile) -> (Result);
+  sendChatMessage: (message: text) -> (text);
+  submitQuizAnswer: (questionId: text, selectedIndex: nat) -> (QuizResult);
+  updateProfile: (updates: ProfileUpdate) -> (Result);
+}
