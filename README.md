@@ -87,12 +87,14 @@ Based on this, it generates safe, practical insights without alarming users.
 > AI-assisted health reports
 > Mobile application/ Implementing in Smartphones
 
-⚠️ Disclaimer
+⚠️ Disclaimer:
+
 CyraSense is not a medical diagnostic tool.
 It is designed for awareness and guidance only.
 Users are advised to consult healthcare professionals for medical concerns.
 
 👩‍💻 Team Details
+
 Team Name: Code Gensis
 
 Members:
