@@ -99,11 +99,12 @@ Team Name: Code Gensis
 
 Members:
 Dhatuvardhini P,
-Muskan H R,
+Thrisha S,
 Vaibhavi N,
 Saanika S
 
 Year: 2nd year
+
 College:
 Ballari Institute of Technology and Management (BITM)
 
