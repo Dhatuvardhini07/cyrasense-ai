@@ -1,0 +1,104 @@
+🌸 CyraSense
+A Smart Women’s Health Intelligence Platform
+🧠 Overview
+CyraSense is a modern web application designed to go beyond basic period tracking. It helps users understand their menstrual health through intelligent pattern analysis, guided insights, and self-care support.
+The platform focuses on awareness, early understanding, and safe guidance, rather than diagnosis, making it suitable for everyday users.
+🎯 Problem Statement
+Many existing apps only track dates but fail to:
+Provide meaningful insights
+Explain irregular patterns clearly
+Support users with actionable guidance
+Address pregnancy awareness and cycle delays
+Offer a safe, non-alarming experience
+As a result, users often feel confused, uninformed, or anxious about their health.
+💡 Solution
+CyraSense provides:
+Smart cycle tracking with predictions
+Pattern-based analysis using rule-based logic
+Safe, easy-to-understand health insights
+Pregnancy awareness and delay detection
+Doctor consultation suggestions based on user location
+Educational and self-care resources
+Gamified learning to improve engagement
+⚙️ Key Features
+📅 Smart Calendar
+Tracks cycle, period days, and ovulation
+Predicts future cycles automatically
+🧠 Pattern Analysis
+Detects cycle irregularities
+Analyzes symptoms and trends
+Provides non-alarming insights
+🤰 Pregnancy Awareness
+Detects delays in cycles
+Highlights ovulation window
+Provides safe informational guidance
+🩺 Doctor Suggestions
+Recommends consultation when needed
+Uses user’s city to suggest doctor type
+💬 Chat Assistant
+Focused on women’s health topics
+Answers questions related to cycles, hygiene, and pregnancy
+🧘 Self-Care Section
+Exercise and wellness guidance
+Hygiene education
+Informational content
+🎮 Gamified Learning
+Quiz-based learning system
+Interactive games
+Reward points system
+🛍 Store
+Product browsing
+Add-to-cart functionality
+Reward-based discounts
+⚙️ Settings
+Profile management
+Theme customization
+Privacy controls
+🧠 How It Works
+CyraSense uses:
+Rule-based logic for decision making
+Statistical analysis for cycle prediction
+User data patterns for personalized insights
+The system evaluates:
+Cycle length consistency
+Symptom repetition
+Pain trends
+Delays
+Based on this, it provides safe suggestions without causing panic.
+💾 Data Handling
+Data is stored using browser local storage
+No external database required
+Ensures user privacy and control
+Works offline for basic functionality
+🎨 UI/UX
+Clean and modern design
+Soft, feminine color palette
+Simple and easy navigation
+Designed for everyday usability
+🚀 Future Scope
+Cloud-based data storage
+Real doctor integration
+Lab test booking
+AI-based report analysis
+Mobile app development
+⚠️ Disclaimer
+CyraSense is not a medical diagnostic tool.
+It is designed for awareness and guidance only.
+Users are encouraged to consult healthcare professionals for medical concerns.
+
+Website link:
+https://cyrasense-6xd.caffeine.xyz/#caffeineAdminToken=1bc3bfce2cfae14931f37f69ecb8ad05bb8ca8c18ee6496f4aff2aeba59b8f1f
+
+
+👩‍💻 Team
+Team Name: Code Gensis
+Members:
+Dhatuvardhini P
+Thrisha S
+Vaibhavi N
+Saanika S
+College:
+Ballari Institute of Technology and Management (BITM)
+⭐ Conclusion
+CyraSense transforms menstrual tracking into meaningful health understanding by combining technology, education, and user-centered design.
+ Thank You
