@@ -5,7 +5,8 @@ From Tracking to Understanding Women's Health
 
 📽️ Demo Video: https://drive.google.com/file/d/1eyUHCElL6nVgQwdDhjxBQ0CBms1cfYv3/view?usp=sharing
 
-🧠 About the Project
+🧠 About the Project:
+
 CyraSense is a modern women’s health platform designed to move beyond basic cycle tracking. Instead of just recording dates, it helps users understand their body patterns, recognize changes, and take informed steps toward better health.
 The system combines smart tracking, pattern-based analysis, and guided insights to create a safe, supportive, and easy-to-use experience.
 
